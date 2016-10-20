@@ -1,17 +1,37 @@
 {
   "name": "concept2",
   "version": "0.0.1",
-  "description": "HID library for Concept2 performance monitor modules.",
-  "keywords": ["hid", "csafe", "rowing", "pm2", "pm3", "pm4", "pm5"],
+  "description": "HID library for communicating with Concept2 performance monitor modules.",
+  "keywords": [
+    "hid",
+    "csafe",
+    "rowing",
+    "pm2",
+    "pm3",
+    "pm4",
+    "pm5"
+  ],
   "main": "index.js",
-  "repository": "git@github.com:mdeltito/node-concept2.git",  
+  "repository": "git@github.com:mdeltito/node-concept2.git",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp test"
   },
   "author": "Michael J. Del Tito <mdeltito@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "csafe": "*",
     "lodash": "^4.16.4",
     "node-hid": "^0.5.1"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^3.0.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-watch": "^4.3.10",
+    "mocha": "*",
+    "mocha-eslint": "^3.0.1",
+    "sinon": "*",
+    "sinon-chai": "*"
   }
 }
