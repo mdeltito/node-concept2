@@ -11,7 +11,7 @@
     "pm4",
     "pm5"
   ],
-  "main": "index.js",
+  "main": "lib/concept2.js",
   "repository": "git@github.com:mdeltito/node-concept2.git",
   "scripts": {
     "test": "gulp test"
