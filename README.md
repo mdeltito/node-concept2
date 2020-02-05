@@ -23,7 +23,7 @@ import Concept2 from concept2
 import { Command } from csafe
 
 // Connect to an available monitor (with vendor ID 6052)
-const pm3 = new concept2
+const pm3 = new Concept2
 
 // Listen for error a new-frame events.
 pm3.on('error', (err) => {
