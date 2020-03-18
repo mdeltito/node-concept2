@@ -14,7 +14,7 @@
   "main": "lib/concept2.js",
   "repository": "git@github.com:mdeltito/node-concept2.git",
   "scripts": {
-    "test": "gulp test"
+    "test": "mocha"
   },
   "author": "Michael J. Del Tito <mdeltito@gmail.com>",
   "license": "ISC",
